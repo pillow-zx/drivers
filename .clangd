@@ -1,0 +1,7 @@
+CompileFlags:
+  Remove:
+    - -fzero-init-padding-bits=all
+    - -fconserve-stack
+    - -fno-allow-store-data-races
+    - -fno-ipa-sra
+    - -mno-fdpic
